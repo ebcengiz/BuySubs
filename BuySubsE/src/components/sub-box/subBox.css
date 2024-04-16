@@ -1,0 +1,44 @@
+.sub-box {
+  width: 309px;
+  height: 350px;
+  border-radius: 14px;
+  /* background-color: red; */
+  position: relative;
+  /* padding: 24px; */
+  margin-right: 40px;
+}
+
+.back-box {
+  width: 285px;
+  height: 326px;
+  border-radius: 14px;
+  background-color: #fffbec;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front-box {
+  width: 285px;
+  height: 326px;
+  border-radius: 14px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
+  color: #171435;
+}
+
+.passed {
+  background-color: #f9ecff;
+}
+
+.passedPr {
+  background-color: #eceeff;
+}

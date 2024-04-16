@@ -1,0 +1,86 @@
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.front-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  /* flex-wrap: nowrap; */
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.front-img {
+  margin-bottom: 16px;
+}
+.front-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #171435;
+  margin-bottom: 4px;
+}
+
+.front-sub-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #171435;
+  margin-bottom: 16px;
+  text-wrap: nowrap;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.front-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+.front-month {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+button {
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  text-align: center;
+  width: 185px;
+  height: 56px;
+  border-radius: 41px;
+  background-color: #f4f5fa;
+  border: 1px solid #f0f0f6;
+  /* margin-bottom: 40px; */
+}
